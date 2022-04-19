@@ -4,13 +4,15 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADuzD68Z3ay4I_Izjx4aA9Gu8-hlf2dfw",
-    authDomain: "managerrr-30a16.firebaseapp.com",
-    projectId: "managerrr-30a16",
-    storageBucket: "managerrr-30a16.appspot.com",
-    messagingSenderId: "349737545058",
-    appId: "1:349737545058:web:468d89d97d4b87c73ad03b"
-  };
+
+  apiKey: "AIzaSyDtX_mMAXTbqViust4trUHxbhZl00pQ11o",
+  authDomain: "pm-source.firebaseapp.com",
+  projectId: "pm-source",
+  storageBucket: "pm-source.appspot.com",
+  messagingSenderId: "710113673470",
+  appId: "1:710113673470:web:9b0d42aa9fee56a4cb65af"
+};
+
 
 
 // Initialize App
@@ -20,7 +22,6 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
 //Authentication service
-
 const auth = firebase.auth();
 
 // Storage Service

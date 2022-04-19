@@ -24,8 +24,8 @@ export const Navbar = () => {
     <div  className='navbar'>
         <ul>
             <li className='logo'>
-                <img src={Temple}  alt='Managerrr'/>
-                <span>Managerrr</span>
+                <img src={Temple}  alt='PM-Sources'/>
+                <span>PM-Sources</span>
             </li>
 
             { !user && 
