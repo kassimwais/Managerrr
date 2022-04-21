@@ -1,4 +1,6 @@
-# A Project Management App Created using React & Firebase
+# A Project Management App - Manager formerly PM-Source
+
+Created using React & Firebase
 
 
 
